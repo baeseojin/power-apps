@@ -1,0 +1,99 @@
+[
+  {
+    "DisplayName": "sj_News Article (뷰)",
+    "Name": "_crbe9_sj_newsarticle_views",
+    "RelatedEntityName": "sj_News Article",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "31d76791-5702-4220-b433-e1a1da26ce6a": "비활성 sj_News Article",
+      "ba4c4155-0def-44df-9b1c-99d714ce8f68": "활성 sj_News Article",
+      "ce1b2597-3b59-4272-9f46-ae8661ef1632": "sj_News Article 조회 보기",
+      "e7049fa9-36a8-4622-9234-b40513c41524": "sj_News Article 관련 보기",
+      "f41ead1d-4521-45e7-b64d-f6b61ded5c88": "sj_News Article의 상세하게 찾기 보기"
+    }
+  },
+  {
+    "DisplayName": "상태 (sj_News Article)",
+    "Name": "crbe9_sj_newsarticle_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "활성",
+      "1": "비활성"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "sj_News Article"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "sj_News Article",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "상태 설명 (sj_News Article)",
+    "Name": "crbe9_sj_newsarticle_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "활성",
+      "2": "비활성"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "sj_News Article"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "sj_News Article",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crbe9_sj_newsarticles",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crbe9_sj_newsarticle",
+    "MaxGetRowsCount": 500,
+    "Name": "sj_News Article",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "담당자",
+      "crbe9_content": "내용",
+      "crbe9_image": "이미지",
+      "crbe9_press": "언론사",
+      "crbe9_sj_newsarticle_AsyncOperations": "시스템 작업 ",
+      "crbe9_sj_newsarticle_BulkDeleteFailures": "대량 삭제 실패 ",
+      "crbe9_sj_newsarticle_MailboxTrackingFolders": "사서함 자동 추적 폴더",
+      "crbe9_sj_newsarticle_PrincipalObjectAttributeAccesses": "필드 공유",
+      "crbe9_sj_newsarticle_ProcessSession": "프로세스 세션",
+      "crbe9_sj_newsarticle_SyncErrors": "동기화 오류",
+      "crbe9_sj_newsarticleid": "sj_News Article",
+      "crbe9_title": "제목",
+      "crbe9_url": "URL",
+      "createdby": "만든 사람",
+      "createdon": "만든 날짜",
+      "createdonbehalfby": "만든 사람(대리인)",
+      "importsequencenumber": "가져오기 시퀀스 번호",
+      "modifiedby": "수정한 사람",
+      "modifiedon": "수정한 날짜",
+      "modifiedonbehalfby": "수정한 사람(대리인)",
+      "overriddencreatedon": "레코드를 만든 날짜",
+      "owningbusinessunit": "담당 사업부",
+      "owningteam": "담당 팀",
+      "owninguser": "담당 사용자",
+      "statecode": "상태",
+      "statuscode": "상태 설명",
+      "timezoneruleversionnumber": "표준 시간대 규칙 버전 번호",
+      "utcconversiontimezonecode": "UTC 변환 표준 시간대 코드",
+      "versionnumber": "버전 번호"
+    },
+    "PreferredName": "sj_News Article",
+    "Type": "NativeCDSDataSourceInfo"
+  }
+]
